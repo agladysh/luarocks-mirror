@@ -1,0 +1,311 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Available rocks</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<style>
+body {
+   background-color: white;
+   font-family: "bitstream vera sans", "verdana", "sans";
+   font-size: 14px;
+}
+a {
+   color: #0000c0;
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: underline;
+}
+td.main {
+   border-style: none;
+}
+blockquote {
+   font-size: 12px;
+}
+td.package {
+   background-color: #f0f0f0;
+   vertical-align: top;
+}
+td.spacer {
+   height: 5px;
+}
+td.version {
+   background-color: #d0d0d0;
+   vertical-align: top;
+   text-align: left;
+   padding: 5px;
+   width: 100px;
+}
+p.manifest {
+   font-size: 8px;
+}
+</style>
+</head>
+<body>
+<h1>Available rocks</h1>
+<p>
+Lua modules avaliable from this location for use with <a href="http://www.luarocks.org">LuaRocks</a>:
+</p>
+<table class="main">
+<td class="package">
+<p><a name="cgilua"></a><b>CGILua</b> - Tool for creating dynamic Web pages and manipulating data from Web forms<br/>
+</p><blockquote><p> CGILua allows the separation of logic and data handling from the generation of pages, making it easy to develop web applications with Lua. CGILua can be used with a variety of Web servers and, for each server, with different launchers. A launcher is responsible for the interaction of CGILua and the Web server, for example using ISAPI on IIS or mod_lua on Apache. <br/>
+<font size="-1"><a href="git://github.com/keplerproject/cgilua.git">latest sources</a>  | License: N/A</font></p>
+</blockquote></a></td>
+<td class="version">
+cvs-4:&nbsp;<a href="cgilua-cvs-4.rockspec">rockspec</a><br/>cvs-3:&nbsp;<a href="cgilua-cvs-3.rockspec">rockspec</a><br/>cvs-2:&nbsp;<a href="cgilua-cvs-2.rockspec">rockspec</a><br/>5.1.2rc1-1:&nbsp;<a href="cgilua-5.1.2rc1-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="copas"></a><b>Copas</b> - Coroutine Oriented Portable Asynchronous Services<br/>
+</p><blockquote><p> Copas is a dispatcher based on coroutines that can be used by TCP/IP servers. It uses LuaSocket as the interface with the TCP/IP stack. A server registered with Copas should provide a handler for requests and use Copas socket functions to send the response. Copas loops through requests and invokes the corresponding handlers. For a full implementation of a Copas HTTP server you can refer to Xavante as an example. <br/>
+<font size="-1"><a href="git://github.com/keplerproject/copas.git">latest sources</a> | <a href=http://www.keplerproject.org/copas/>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+cvs-2:&nbsp;<a href="copas-cvs-2.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="cosmo"></a><b>Cosmo</b> - Safe templates for Lua<br/>
+</p><blockquote><p>Cosmo is a "safe templates" engine. It allows you to fill nested templates, providing many of the advantages of Turing-complete template engines, without without the downside of allowing arbitrary code in the templates. <br/>
+<font size="-1"><a href="git://github.com/mascarenhas/cosmo.git">latest sources</a> | <a href=http://cosmo.luaforge.net>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+current-1:&nbsp;<a href="cosmo-current-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="coxpcall"></a><b>Coxpcall</b> - Coroutine safe xpcall and pcall<br/>
+</p><blockquote><p> Encapsulates the protected calls with a coroutine based loop, so errors can be dealed without the usual Lua 5.x pcall/xpcall issues with coroutines yielding inside the call to pcall or xpcall. <br/>
+<font size="-1"><a href="git://github.com/keplerproject/coxpcall.git">latest sources</a> | <a href=http://coxpcall.luaforge.net>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+cvs-2:&nbsp;<a href="coxpcall-cvs-2.rockspec">rockspec</a><br/>cvs-1:&nbsp;<a href="coxpcall-cvs-1.rockspec">rockspec</a><br/>1.12.0rc1-1:&nbsp;<a href="coxpcall-1.12.0rc1-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="kepler"></a><b>Kepler</b> - The Lua Web Development Platform<br/>
+</p><blockquote><p>Kepler is a Lua web development platform that offers the same advantages of Lua. Kepler is simple, portable, light, embeddable and extensible. <br/>
+<font size="-1"><a href="git://github.com/keplerproject/kepler.git">latest sources</a> | <a href=http://www.keplerproject.org/kepler>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+cvs-2:&nbsp;<a href="kepler-cvs-2.rockspec">rockspec</a><br/>cvs-1:&nbsp;<a href="kepler-cvs-1.rockspec">rockspec</a><br/>1.1rc1-1:&nbsp;<a href="kepler-1.1rc1-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="kepler-fastcgi"></a><b>Kepler-Fastcgi</b> - The Lua Web Development Platform<br/>
+</p><blockquote><p>Kepler is a Lua web development platform that offers the same advantages of Lua. Kepler is simple, portable, light, embeddable and extensible. This is the FastCGI launcher. <br/>
+<font size="-1"><a href="git://github.com/keplerproject/kepler.git">latest sources</a> | <a href=http://www.keplerproject.org/kepler>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+cvs-2:&nbsp;<a href="kepler-fastcgi-cvs-2.rockspec">rockspec</a><br/>cvs-1:&nbsp;<a href="kepler-fastcgi-cvs-1.rockspec">rockspec</a><br/>1.1rc1-1:&nbsp;<a href="kepler-fastcgi-1.1rc1-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="kepler-xavante"></a><b>Kepler-Xavante</b> - The Lua Web Development Platform<br/>
+</p><blockquote><p>Kepler is a Lua web development platform that offers the same advantages of Lua. Kepler is simple, portable, light, embeddable and extensible. This installs the Xavante webserver. <br/>
+<font size="-1"><a href="git://github.com/keplerproject/kepler.git">latest sources</a> | <a href=http://www.keplerproject.org/kepler>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+cvs-2:&nbsp;<a href="kepler-xavante-cvs-2.rockspec">rockspec</a><br/>cvs-1:&nbsp;<a href="kepler-xavante-cvs-1.rockspec">rockspec</a><br/>1.1rc1-1:&nbsp;<a href="kepler-xavante-1.1rc1-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="lua-phpserialize"></a><b>lua-phpserialize</b> - Lua module to support PHP serialize()<br/>
+</p><blockquote><p> lua-phpserialize: A module to work with PHP serialize() format. <br/>
+<font size="-1"><a href="git://github.com/agladysh/lua-phpserialize.git">latest sources</a> | <a href=http://github.com/agladysh/lua-phpserialize>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+scm-1:&nbsp;<a href="lua-phpserialize-scm-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="luabins"></a><b>luabins</b> - Trivial Lua Binary Serialization Library<br/>
+</p><blockquote><p> Luabins allows to save tuples of primitive Lua types into binary chunks and to load saved data back. <br/>
+<font size="-1"><a href="git://github.com/agladysh/luabins.git">latest sources</a> | <a href=http://github.com/agladysh/luabins>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+scm-1:&nbsp;<a href="luabins-scm-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="luacom"></a><b>LuaCOM</b> - Use COM libraries from Lua<br/>
+</p><blockquote><p>LuaCOM is an add-on library to the Lua language that allows Lua programs to use and implement objects that follow Microsoft's Component Object Model (COM) specification and use the ActiveX technology for property access and method calls. <br/>
+<font size="-1"><a href="cvs://:pserver:anonymous:@cvs.luaforge.net:/cvsroot/luacom">latest sources</a> | <a href=http://luaforge.net/projects/luacom/>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+cvs-1:&nbsp;<a href="luacom-cvs-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="luafilesystem"></a><b>LuaFileSystem</b> - File System Library for the Lua Programming Language<br/>
+</p><blockquote><p> LuaFileSystem is a Lua library developed to complement the set of functions related to file systems offered by the standard Lua distribution. LuaFileSystem offers a portable way to access the underlying directory structure and file attributes. <br/>
+<font size="-1"><a href="git://github.com/keplerproject/luafilesystem.git">latest sources</a>  | License: N/A</font></p>
+</blockquote></a></td>
+<td class="version">
+cvs-2:&nbsp;<a href="luafilesystem-cvs-2.rockspec">rockspec</a><br/>cvs-1:&nbsp;<a href="luafilesystem-cvs-1.rockspec">rockspec</a><br/>1.4.1rc1-1:&nbsp;<a href="luafilesystem-1.4.1rc1-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="luahaml"></a><b>luahaml</b> - An implementation of the Haml markup language for Lua.<br/>
+</p><blockquote><p> Lua Haml is an in-progress implementation of the Haml markup language for Lua. <br/>
+<font size="-1"><a href="git://github.com/norman/lua-haml.git">latest sources</a> | <a href=http://github.com/norman/lua-haml>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+scm-1:&nbsp;<a href="luahaml-scm-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="luajson"></a><b>luajson</b> - customizable JSON decoder/encoder<br/>
+</p><blockquote><p> LuaJSON is a customizable JSON decoder/encoder using LPEG for parsing. <br/>
+<font size="-1"><a href="git://github.com/harningt/luajson.git">latest sources</a> | <a href=http://github.com/harningt/luajson>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+scm-3:&nbsp;<a href="luajson-scm-3.rockspec">rockspec</a><br/>scm-2:&nbsp;<a href="luajson-scm-2.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="lualdap"></a><b>LuaLDAP</b> - A Lua interface to the OpenLDAP library<br/>
+</p><blockquote><p> LuaLDAP is a simple interface from Lua to an LDAP client, in fact it is a bind to OpenLDAP. It enables a Lua program to connect to an LDAP server; execute any operation (search, add, compare, delete, modify and rename); retrieve entries and references of the search result. <br/>
+<font size="-1"><a href="cvs://:pserver:anonymous:@cvs.luaforge.net:/cvsroot/lualdap">latest sources</a> | <a href=http://www.keplerproject.org/lualdap/>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+cvs-2:&nbsp;<a href="lualdap-cvs-2.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="lualogging"></a><b>LuaLogging</b> - A simple API to use logging features<br/>
+</p><blockquote><p> LuaLogging provides a simple API to use logging features in Lua. Its design was based on log4j. LuaLogging currently supports, through the use of appenders, console, file, email, socket and SQL outputs. <br/>
+<font size="-1"><a href="cvs://:pserver:anonymous:@cvs.luaforge.net:/cvsroot/lualogging">latest sources</a> | <a href=http://www.keplerproject.org/lualogging/>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+cvs-2:&nbsp;<a href="lualogging-cvs-2.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="luaprofiler"></a><b>LuaProfiler</b> - Profiling for Lua scripts<br/>
+</p><blockquote><p> LuaProfiler is a time profiler designed to help finding bottlenecks on your Lua program. If you use LuaProfiler into your program, it will generate a log of all your function calls and their respective running times. You can use this log to generate a summary of the functions your program uses, along with how long it stayed in each of them, or you can import the log into a spreadsheet for further analysis. <br/>
+<font size="-1"><a href="cvs://:pserver:anonymous@cvs.luaforge.net:/cvsroot/luaprofiler">latest sources</a> | <a href=http://www.keplerproject.org/luaprofiler/>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+cvs-1:&nbsp;<a href="luaprofiler-cvs-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="luasql-mysql"></a><b>LuaSQL-MySQL</b> - Database connectivity for Lua (MySQL driver)<br/>
+</p><blockquote><p> LuaSQL is a simple interface from Lua to a DBMS. It enables a Lua program to connect to databases, execute arbitrary SQL statements and retrieve results in a row-by-row cursor fashion. <br/>
+<font size="-1"><a href="git://github.com/keplerproject/luasql.git">latest sources</a> | <a href=http://www.keplerproject.org/luasql/>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+cvs-1:&nbsp;<a href="luasql-mysql-cvs-1.rockspec">rockspec</a><br/>2.2.0rc1-1:&nbsp;<a href="luasql-mysql-2.2.0rc1-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="luasql-odbc"></a><b>LuaSQL-ODBC</b> - Database connectivity for Lua (ODBC driver)<br/>
+</p><blockquote><p> LuaSQL is a simple interface from Lua to a DBMS. It enables a Lua program to connect to databases, execute arbitrary SQL statements and retrieve results in a row-by-row cursor fashion. <br/>
+<font size="-1"><a href="git://github.com/keplerproject/luasql.git">latest sources</a> | <a href=http://www.keplerproject.org/luasql/>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+cvs-1:&nbsp;<a href="luasql-odbc-cvs-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="luasql-postgres"></a><b>LuaSQL-Postgres</b> - Database connectivity for Lua (Postgres driver)<br/>
+</p><blockquote><p> LuaSQL is a simple interface from Lua to a DBMS. It enables a Lua program to connect to databases, execute arbitrary SQL statements and retrieve results in a row-by-row cursor fashion. <br/>
+<font size="-1"><a href="git://github.com/keplerproject/luasql.git">latest sources</a> | <a href=http://www.keplerproject.org/luasql/>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+cvs-2:&nbsp;<a href="luasql-postgres-cvs-2.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="luasql-sqlite"></a><b>LuaSQL-SQLite</b> - Database connectivity for Lua (SQLite driver)<br/>
+</p><blockquote><p> LuaSQL is a simple interface from Lua to a DBMS. It enables a Lua program to connect to databases, execute arbitrary SQL statements and retrieve results in a row-by-row cursor fashion. <br/>
+<font size="-1"><a href="git://github.com/keplerproject/luasql.git">latest sources</a> | <a href=http://www.keplerproject.org/luasql/>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+cvs-1:&nbsp;<a href="luasql-sqlite-cvs-1.rockspec">rockspec</a><br/>2.2.0rc1-1:&nbsp;<a href="luasql-sqlite-2.2.0rc1-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="luasql-sqlite3"></a><b>LuaSQL-SQLite3</b> - Database connectivity for Lua (SQLite3 driver)<br/>
+</p><blockquote><p> LuaSQL is a simple interface from Lua to a DBMS. It enables a Lua program to connect to databases, execute arbitrary SQL statements and retrieve results in a row-by-row cursor fashion. <br/>
+<font size="-1"><a href="git://github.com/keplerproject/luasql.git">latest sources</a> | <a href=http://www.keplerproject.org/luasql/>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+cvs-1:&nbsp;<a href="luasql-sqlite3-cvs-1.rockspec">rockspec</a><br/>2.2.0rc1-1:&nbsp;<a href="luasql-sqlite3-2.2.0rc1-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="md5"></a><b>MD5</b> - Basic cryptographic library<br/>
+</p><blockquote><p> MD5 offers basic cryptographic facilities for Lua 5.1: a hash (digest) function, and a pair crypt/decrypt. <br/>
+<font size="-1"><a href="cvs://:pserver:anonymous@cvs.luaforge.net:/cvsroot/md5">latest sources</a> | <a href=http://www.keplerproject.org/md5/>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+cvs-1:&nbsp;<a href="md5-cvs-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="mk"></a><b>mk</b> - Kepler base framework<br/>
+</p><blockquote><p> A simple framework for Kepler applications <br/>
+<font size="-1"><a href="git://github.com/keplerproject/mk.git">latest sources</a> | <a href=http://keplerproject.github.com/mk>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+scm-1:&nbsp;<a href="mk-scm-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="orbit"></a><b>Orbit</b> - MVC for Lua Web Development<br/>
+</p><blockquote><p> Orbit is a library for developing web applications according to the Model-View-Controller paradigm in Lua. <br/>
+<font size="-1"><a href="git://github.com/keplerproject/orbit.git">latest sources</a> | <a href=http://www.keplerproject.org/orbit>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+cvs-2:&nbsp;<a href="orbit-cvs-2.rockspec">rockspec</a><br/>cvs-1:&nbsp;<a href="orbit-cvs-1.rockspec">rockspec</a><br/>2.0rc1-1:&nbsp;<a href="orbit-2.0rc1-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="rings"></a><b>Rings</b> - Create new Lua states from within Lua<br/>
+</p><blockquote><p> Rings is a library which provides a way to create new Lua states from within Lua. It also offers a simple way to communicate between the creator (master) and the created (slave) states. <br/>
+<font size="-1"><a href="git://github.com/keplerproject/rings.git">latest sources</a> | <a href=http://www.keplerproject.org/rings/>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+cvs-4:&nbsp;<a href="rings-cvs-4.rockspec">rockspec</a><br/>cvs-2:&nbsp;<a href="rings-cvs-2.rockspec">rockspec</a><br/>cvs-1:&nbsp;<a href="rings-cvs-1.rockspec">rockspec</a><br/>1.2.1rc1-1:&nbsp;<a href="rings-1.2.1rc1-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="schema"></a><b>schema</b> - Schema<br/>
+</p><blockquote><p>Schema is a module that allows the declaration of data structures composed of Entities and Fields. Its primary use is to define the model for ORMs and Form generators, but it can be used to declare any such structure.<br/>
+<font size="-1"><a href="git://github.com/jasonsantos/schema.git">latest sources</a> | <a href=http://schema.github.com/>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+scm-1:&nbsp;<a href="schema-scm-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="shake"></a><b>Shake</b> - A Simple Lua Test Engine<br/>
+</p><blockquote><p> Shake is a simple and transparent test engine for Lua that assumes that tests only use standard assert and print calls. Shake uses Leg and LPeg to preprocess test files and extract a lot more information than what is usually available when tests use standard Lua assertions. <br/>
+<font size="-1"><a href="git://github.com/keplerproject/shake.git">latest sources</a> | <a href=http://shake.luaforge.net/>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+cvs-1:&nbsp;<a href="shake-cvs-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="telescope"></a><b>telescope</b> - A test/spec library for Lua.<br/>
+</p><blockquote><p> Telescope is a test/spec library for Lua. <br/>
+<font size="-1"><a href="git://github.com/norman/telescope.git">latest sources</a> | <a href=http://telescope.luaforge.net>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+scm-1:&nbsp;<a href="telescope-scm-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="wsapi"></a><b>WSAPI</b> - Lua Web Server API<br/>
+</p><blockquote><p> WSAPI is an API that abstracts the web server from Lua web applications. This is the rock that contains the base WSAPI libraries plus the CGI adapters. <br/>
+<font size="-1"><a href="git://github.com/keplerproject/wsapi.git">latest sources</a> | <a href=http://www.keplerproject.org/wsapi>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+cvs-3:&nbsp;<a href="wsapi-cvs-3.rockspec">rockspec</a><br/>cvs-2:&nbsp;<a href="wsapi-cvs-2.rockspec">rockspec</a><br/>cvs-1:&nbsp;<a href="wsapi-cvs-1.rockspec">rockspec</a><br/>1.0rc1-1:&nbsp;<a href="wsapi-1.0rc1-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="wsapi-fcgi"></a><b>WSAPI-FCGI</b> - Lua Web Server API FastCGI Adapter<br/>
+</p><blockquote><p> WSAPI is an API that abstracts the web server from Lua web applications. This is the rock that contains the FCGI module lfcgi. <br/>
+<font size="-1"><a href="git://github.com/keplerproject/wsapi.git">latest sources</a> | <a href=http://www.keplerproject.org/wsapi>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+cvs-2:&nbsp;<a href="wsapi-fcgi-cvs-2.rockspec">rockspec</a><br/>cvs-1:&nbsp;<a href="wsapi-fcgi-cvs-1.rockspec">rockspec</a><br/>1.0rc1-1:&nbsp;<a href="wsapi-fcgi-1.0rc1-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="wsapi-xavante"></a><b>WSAPI-Xavante</b> - Lua Web Server API - Xavante Handler<br/>
+</p><blockquote><p> WSAPI is an API that abstracts the web server from Lua web applications. This is the rock that contains the Xavante adapter and launcher. <br/>
+<font size="-1"><a href="git://github.com/keplerproject/wsapi.git">latest sources</a> | <a href=http://www.keplerproject.org/wsapi>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+cvs-1:&nbsp;<a href="wsapi-xavante-cvs-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="xavante"></a><b>Xavante</b> - Lua Web Server Library<br/>
+</p><blockquote><p> Xavante is a Lua HTTP 1.1 Web server that uses a modular architecture based on URI mapped handlers. This rock installs Xavante as a library that other applications can use. <br/>
+<font size="-1"><a href="git://github.com/keplerproject/xavante.git">latest sources</a> | <a href=http://www.keplerproject.org/xavante>project homepage</a> | License: MIT/X11</font></p>
+</blockquote></a></td>
+<td class="version">
+cvs-2:&nbsp;<a href="xavante-cvs-2.rockspec">rockspec</a><br/>cvs-1:&nbsp;<a href="xavante-cvs-1.rockspec">rockspec</a><br/>2.0rc1-1:&nbsp;<a href="xavante-2.0rc1-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+</table>
+<p class="manifest">
+<a href="manifest">manifest file</a>
+</p>
+</body>
+</html>
