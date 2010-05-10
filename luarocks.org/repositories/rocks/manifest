@@ -6,9 +6,9 @@ repository = {
       {
         arch='rockspec'
       }, {
-        arch='win32-x86'
-      }, {
         arch='src'
+      }, {
+        arch='win32-x86'
       }
     }
   },
@@ -24,9 +24,9 @@ repository = {
   lunit={
     ['0.4-1']={
       {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }
     },
     ['0.5-1']={
@@ -40,92 +40,97 @@ repository = {
     }
   },
   luaprofiler={
-    ['2.0.2-2']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
     ['2.0.2-1']={
       {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }, {
         arch='win32-x86'
       }
+    },
+    ['2.0.2-2']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
     }
   },
-  luapod={
-    ['0.1-1']={
+  ['luasql-sqlite3']={
+    ['2.2.0-1']={
       {
-        arch='all'
+        arch='rockspec'
       }, {
         arch='src'
       }, {
-        arch='rockspec'
+        arch='win32-x86'
       }
     }
   },
   lzlib={
     ['0.3-1']={
       {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }
     }
   },
   recaptcha={
     ['8.05.26-1']={
       {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }
     }
   },
   ['lua-discount']={
     ['1.2.7-1']={
       {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['1.2.10.1-1']={
-      {
-        arch='src'
-      }, {
         arch='rockspec'
       }, {
-        arch='win32-x86'
+        arch='src'
       }
     },
     ['1.2.10-1']={
       {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.2.10.1-1']={
+      {
+        arch='rockspec'
+      }, {
         arch='src'
       }, {
-        arch='rockspec'
+        arch='win32-x86'
       }
     }
   },
-  luaexpat={
-    ['1.1.0-3']={
+  ['lua-tinycdb']={
+    ['0.1-1']={
       {
-        arch='win32-x86'
+        arch='rockspec'
       }, {
         arch='src'
-      }, {
-        arch='rockspec'
       }
     },
-    ['1.1.0-4']={
+    ['0.1-2']={
       {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['0.2-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
       }
     }
   },
@@ -139,9 +144,9 @@ repository = {
     },
     ['2.2.2-2']={
       {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }
     },
     ['2.3.0-1']={
@@ -153,27 +158,29 @@ repository = {
     },
     ['2.4.0-1']={
       {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }
     }
   },
-  penlight={
-    ['0.8-1']={
+  xssfilter={
+    ['8.04.20-1']={
       {
+        arch='all'
+      }, {
         arch='rockspec'
       }, {
-        arch='all'
+        arch='src'
       }
     }
   },
   luagl={
     ['1.01-1']={
       {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }
     }
   },
@@ -200,58 +207,58 @@ repository = {
       {
         arch='all'
       }, {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }
     },
     ['2.1.0-1']={
       {
         arch='all'
       }, {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }
     },
     ['2.2.0-1']={
       {
         arch='all'
       }, {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }
     }
   },
   lualogging={
     ['1.1.4-1']={
       {
+        arch='all'
+      }, {
         arch='rockspec'
       }, {
         arch='src'
-      }, {
-        arch='all'
       }
     }
   },
   ['md5']={
     ['1.1.2-1']={
       {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }, {
         arch='win32-x86'
       }
     },
     ['1.1.1-1']={
       {
-        arch='win32-x86'
+        arch='rockspec'
       }, {
         arch='src'
       }, {
-        arch='rockspec'
+        arch='win32-x86'
       }
     },
     ['1.0.2-2']={
@@ -262,29 +269,17 @@ repository = {
       }
     }
   },
-  ['lrexlib-posix']={
-    ['2.2.2-1']={
+  asklua={
+    ['0.1-1']={
       {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['2.4.0-1']={
-      {
-        arch='src'
+        arch='all'
       }, {
         arch='rockspec'
       }
-    },
-    ['2.3.0-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['2.2.2-2']={
+    }
+  },
+  struct={
+    ['1.2-1']={
       {
         arch='rockspec'
       }, {
@@ -302,65 +297,88 @@ repository = {
   ['json4lua']={
     ['0.9.20-1']={
       {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['0.9.30-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
       }
     }
   },
-  luasec={
-    ['0.4-1']={
+  luacom={
+    ['1.4-1']={
       {
+        arch='rockspec'
+      }, {
         arch='src'
       }, {
-        arch='rockspec'
-      }
-    },
-    ['0.3.3-2']={
-      {
-        arch='rockspec'
-      }
-    },
-    ['0.3.3-1']={
-      {
-        arch='rockspec'
-      }
-    },
-    ['0.4-2']={
-      {
         arch='win32-x86'
-      }, {
-        arch='src'
-      }, {
-        arch='rockspec'
       }
-    },
-    ['0.3.1-1']={
+    }
+  },
+  luafam={
+    ['1.0.0-1']={
       {
         arch='rockspec'
       }, {
         arch='src'
       }
-    },
-    ['0.3.1-2']={
+    }
+  },
+  abelhas={
+    ['1.0-1']={
       {
         arch='rockspec'
+      }, {
+        arch='src'
       }
-    },
-    ['0.4-3']={
+    }
+  },
+  ['kepler-fastcgi']={
+    ['1.1-1']={
       {
+        arch='rockspec'
+      }, {
         arch='src'
       }, {
+        arch='win32-x86'
+      }
+    },
+    ['1.1-2']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['1.1.1-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['1.1.1-2']={
+      {
         arch='rockspec'
       }
     }
   },
-  luayaml={
-    ['0.5.6-1']={
+  colors={
+    ['8.05.26-1']={
       {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }
     }
   },
@@ -380,7 +398,16 @@ repository = {
       }
     }
   },
-  slnunicode={
+  objectlua={
+    ['0.4.10-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  slncrypto={
     ['1.1-1']={
       {
         arch='rockspec'
@@ -389,1065 +416,15 @@ repository = {
       }
     }
   },
-  abelhas={
-    ['1.0-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    }
-  },
-  densearrays={
-    ['1.0-2']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    }
-  },
-  luafam={
-    ['1.0.0-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    }
-  },
-  remdebug={
-    ['1.0-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }, {
-        arch='all'
-      }
-    }
-  },
-  coxpcall={
-    ['1.12.0-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['1.13.0-1']={
-      {
-        arch='all'
-      }, {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['1.11.0-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    }
-  },
-  shake={
-    ['1.0-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }, {
-        arch='all'
-      }
-    },
-    ['1.0.1-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }, {
-        arch='all'
-      }
-    }
-  },
-  ltcltk={
-    ['0.9-1']={
-      {
-        arch='rockspec'
-      }
-    }
-  },
-  fbclient={
-    ['0.4.0-1']={
-      {
-        arch='rockspec'
-      }
-    }
-  },
-  dado={
-    ['1.0-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }, {
-        arch='all'
-      }
-    },
-    ['1.0.1-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['1.1.0-1']={
-      {
-        arch='rockspec'
-      }
-    },
-    ['1.1.0-3']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    }
-  },
-  luasyslog={
-    ['1.0.0-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    }
-  },
-  rings={
-    ['1.2.3-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }, {
-        arch='win32-x86'
-      }
-    },
-    ['1.2.0-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['1.2.2-1']={
-      {
-        arch='win32-x86'
-      }, {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['1.1.0-2']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['1.2.1-1']={
-      {
-        arch='src'
-      }, {
-        arch='win32-x86'
-      }, {
-        arch='rockspec'
-      }
-    }
-  },
-  orbit={
-    ['2.0-1']={
-      {
-        arch='all'
-      }, {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['2.0.1-1']={
-      {
-        arch='all'
-      }, {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['2.1.0-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }, {
-        arch='win32-x86'
-      }
-    },
-    ['2.0.2-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['2.2.0-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }, {
-        arch='win32-x86'
-      }
-    }
-  },
-  ['lua-testlongstring']={
-    ['0.1.0-1']={
-      {
-        arch='rockspec'
-      }
-    },
-    ['0.1.2-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['0.1.0-2']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['0.1.1-1']={
-      {
-        arch='rockspec'
-      }
-    }
-  },
-  ['lua-iconv']={
-    ['r3-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['r5-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['r5-2']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    }
-  },
-  luazip={
-    ['1.2.3-2']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }, {
-        arch='win32-x86'
-      }
-    }
-  },
-  date={
-    ['1.0-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    }
-  },
-  alien={
-    ['0.5.0-1']={
-      {
-        arch='src'
-      }, {
-        arch='win32-x86'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['0.4.1-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='win32-x86'
-      }, {
-        arch='src'
-      }
-    }
-  },
-  luasvn={
+  ['lua-imlib2']={
     ['0.1-1']={
       {
         arch='rockspec'
       }, {
         arch='src'
-      }
-    },
-    ['0.3.0-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['0.4.0-1']={
-      {
-        arch='rockspec'
-      }
-    },
-    ['0.2.6-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['0.2.6-2']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    }
-  },
-  config={
-    ['1.0.0-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    }
-  },
-  lrandom={
-    ['20070628-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }, {
-        arch='win32-x86'
-      }
-    },
-    ['20090623-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    }
-  },
-  concurrentlua={
-    ['1.0-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['1.0-2']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    }
-  },
-  stdlib={
-    ['4-2']={
-      {
-        arch='all'
-      }, {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['6-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['5-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['8-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    }
-  },
-  luagraph={
-    ['1.0.2-2']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['1.0.2-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    }
-  },
-  ['luasql-sqlite3']={
-    ['2.2.0-1']={
-      {
-        arch='src'
-      }, {
-        arch='win32-x86'
-      }, {
-        arch='rockspec'
-      }
-    }
-  },
-  luacov={
-    ['0.1-1']={
-      {
-        arch='src'
-      }, {
-        arch='all'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['0.2-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    }
-  },
-  ['lua-testmore']={
-    ['0.1.0-1']={
-      {
-        arch='rockspec'
-      }
-    },
-    ['0.2.0-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['0.2.1-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    }
-  },
-  ['lsqlite3']={
-    ['0.7-1']={
-      {
-        arch='rockspec'
-      }
-    }
-  },
-  wsapi={
-    ['1.0-1']={
-      {
-        arch='src'
-      }
-    },
-    ['1.2-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['1.3.3-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['1.1-2']={
-      {
-        arch='src'
-      }, {
-        arch='win32-x86'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['1.3.2-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['1.3-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['1.3.4-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }, {
-        arch='win32-x86'
-      }
-    },
-    ['1.3.1-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['1.0-2']={
-      {
-        arch='win32-x86'
-      }, {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['1.1-1']={
-      {
-        arch='src'
-      }, {
-        arch='win32-x86'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['1.2-2']={
-      {
-        arch='win32-x86'
-      }, {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    }
-  },
-  lpeg={
-    ['0.7-2']={
-      {
-        arch='src'
-      }, {
-        arch='win32-x86'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['0.7-3']={
-      {
-        arch='rockspec'
-      }, {
-        arch='win32-x86'
-      }, {
-        arch='src'
-      }
-    },
-    ['0.8.1-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }, {
-        arch='win32-x86'
-      }
-    },
-    ['0.7-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['0.6-2']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['0.9-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }, {
-        arch='win32-x86'
-      }
-    }
-  },
-  mixlua={
-    ['0.2.7-2']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['0.2.7-1']={
-      {
-        arch='rockspec'
-      }
-    }
-  },
-  luabitop={
-    ['1.0.0-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['1.0.1-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    }
-  },
-  luahelp={
-    ['0.3-1']={
-      {
-        arch='rockspec'
-      }
-    }
-  },
-  struct={
-    ['1.2-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    }
-  },
-  bitlib={
-    ['23-2']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    }
-  },
-  luaidl={
-    ['0.8.9beta-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    }
-  },
-  diff={
-    ['8.06.15-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    }
-  },
-  ['lua-tinycdb']={
-    ['0.1-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['0.2-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
       }
     },
     ['0.1-2']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    }
-  },
-  asklua={
-    ['0.1-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='all'
-      }
-    }
-  },
-  luse={
-    ['1.0.2-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    }
-  },
-  ['lua-espeak']={
-    ['1.36r1-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    }
-  },
-  lanes={
-    ['2.0.3-2']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['2.0-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['2.0-2']={
-      {
-        arch='rockspec'
-      }
-    },
-    ['2.0.3-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    }
-  },
-  ['wsapi-fcgi']={
-    ['1.0-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='win32-x86'
-      }, {
-        arch='src'
-      }
-    },
-    ['1.2-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['1.3.3-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['1.3.1-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['1.3.2-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['1.3-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['1.1-1']={
-      {
-        arch='src'
-      }, {
-        arch='win32-x86'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['1.1-3']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['1.0-2']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }, {
-        arch='win32-x86'
-      }
-    },
-    ['1.3.4-1']={
-      {
-        arch='src'
-      }, {
-        arch='win32-x86'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['1.1-2']={
-      {
-        arch='src'
-      }, {
-        arch='win32-x86'
-      }, {
-        arch='rockspec'
-      }
-    }
-  },
-  ['luasql-mysql']={
-    ['2.2.0-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    }
-  },
-  lua_signal={
-    ['20100412-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['20100305-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['1.000-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    }
-  },
-  nixio={
-    ['0.3-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    }
-  },
-  luacurl={
-    ['1.1-2']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['1.1-3']={
-      {
-        arch='win32-x86'
-      }, {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    }
-  },
-  webrocks={
-    ['1.0-1']={
-      {
-        arch='src'
-      }, {
-        arch='macosx-x86'
-      }, {
-        arch='rockspec'
-      }
-    }
-  },
-  lmathx={
-    ['20080423-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['20090808-1']={
-      {
-        arch='rockspec'
-      }
-    },
-    ['20080903-1']={
-      {
-        arch='rockspec'
-      }
-    },
-    ['20090219-1']={
-      {
-        arch='rockspec'
-      }
-    }
-  },
-  luabins={
-    ['0.1.1-2']={
-      {
-        arch='rockspec'
-      }
-    },
-    ['0.2-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    }
-  },
-  lmapm={
-    ['20070628-2']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['20090403-3']={
-      {
-        arch='rockspec'
-      }
-    },
-    ['20090403-2']={
-      {
-        arch='rockspec'
-      }
-    }
-  },
-  loop={
-    ['2.3beta-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['2.2alpha-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }, {
-        arch='all'
-      }
-    }
-  },
-  markdown={
-    ['0.27-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['0.32-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['0.13-1']={
-      {
-        arch='src'
-      }, {
-        arch='all'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['0.30-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['0.31-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['0.26-1']={
       {
         arch='rockspec'
       }, {
@@ -1464,112 +441,14 @@ repository = {
       }
     }
   },
-  ['wsapi-xavante']={
-    ['1.3.2-1']={
+  remdebug={
+    ['1.0-1']={
       {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['1.2-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }, {
-        arch='win32-x86'
-      }
-    },
-    ['1.3.4-1']={
-      {
-        arch='src'
-      }, {
-        arch='win32-x86'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['1.3-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['1.3.1-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['1.3.3-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    }
-  },
-  luafilesystem={
-    ['1.4.0-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['1.3.0-1']={
-      {
-        arch='win32-x86'
+        arch='all'
       }, {
         arch='rockspec'
       }, {
         arch='src'
-      }
-    },
-    ['1.5.0-1']={
-      {
-        arch='src'
-      }, {
-        arch='win32-x86'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['1.2.1-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['1.4.0-2']={
-      {
-        arch='win32-x86'
-      }, {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    },
-    ['1.4.2-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='win32-x86'
-      }, {
-        arch='src'
-      }
-    },
-    ['1.4.1-1']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }, {
-        arch='win32-x86'
       }
     }
   },
@@ -1599,18 +478,1019 @@ repository = {
       {
         arch='all'
       }, {
+        arch='rockspec'
+      }, {
         arch='src'
+      }
+    }
+  },
+  shake={
+    ['1.0-1']={
+      {
+        arch='all'
       }, {
         arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.0.1-1']={
+      {
+        arch='all'
+      }, {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  densearrays={
+    ['1.0-2']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  fbclient={
+    ['0.4.0-1']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
+  dado={
+    ['1.0-1']={
+      {
+        arch='all'
+      }, {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.0.1-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.1.0-1']={
+      {
+        arch='rockspec'
+      }
+    },
+    ['1.1.0-3']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  luasec={
+    ['0.3.1-2']={
+      {
+        arch='rockspec'
+      }
+    },
+    ['0.3.3-2']={
+      {
+        arch='rockspec'
+      }
+    },
+    ['0.3.3-1']={
+      {
+        arch='rockspec'
+      }
+    },
+    ['0.4-2']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['0.3.1-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['0.4-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['0.4-3']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  ['lua-ev']={
+    ['v1.3-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['v1.2-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  ['lrexlib-posix']={
+    ['2.2.2-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['2.2.2-2']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['2.3.0-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['2.4.0-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  ['lua-testlongstring']={
+    ['0.1.0-1']={
+      {
+        arch='rockspec'
+      }
+    },
+    ['0.1.0-2']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['0.1.1-1']={
+      {
+        arch='rockspec'
+      }
+    },
+    ['0.1.2-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  luacurl={
+    ['1.1-2']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.1-3']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    }
+  },
+  luadaemon={
+    ['1.0.0-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  lposix={
+    ['20031107-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  alien={
+    ['0.4.1-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['0.5.0-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    }
+  },
+  luapod={
+    ['0.1-1']={
+      {
+        arch='all'
+      }, {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  config={
+    ['1.0.0-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  ['kepler-xavante']={
+    ['1.1.1-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['1.1-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    }
+  },
+  concurrentlua={
+    ['1.0-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.0-2']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  stdlib={
+    ['4-2']={
+      {
+        arch='all'
+      }, {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['6-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['5-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['8-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  luahelp={
+    ['0.3-1']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
+  coxpcall={
+    ['1.12.0-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.13.0-1']={
+      {
+        arch='all'
+      }, {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.11.0-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  luacov={
+    ['0.1-1']={
+      {
+        arch='all'
+      }, {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['0.2-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  luaexpat={
+    ['1.1.0-3']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['1.1.0-4']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  ['lsqlite3']={
+    ['0.7-1']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
+  wsapi={
+    ['1.0-1']={
+      {
+        arch='src'
+      }
+    },
+    ['1.2-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.3.3-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.1-2']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['1.3.2-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.3-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.1-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['1.3.4-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['1.0-2']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['1.3.1-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.2-2']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    }
+  },
+  bitlib={
+    ['23-2']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  date={
+    ['1.0-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  lanes={
+    ['2.0-2']={
+      {
+        arch='rockspec'
+      }
+    },
+    ['2.0-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['2.0.3-2']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['2.0.3-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  luabitop={
+    ['1.0.0-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.0.1-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  ['lua-xmlreader']={
+    ['0.1-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  oil={
+    ['0.4beta-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  ['lua-testmore']={
+    ['0.1.0-1']={
+      {
+        arch='rockspec'
+      }
+    },
+    ['0.2.0-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['0.2.1-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  diff={
+    ['8.06.15-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  ltcltk={
+    ['0.9-1']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
+  lua_signal={
+    ['20100412-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.000-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['20100305-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  stringy={
+    ['0.2-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  ['lua-espeak']={
+    ['1.36r1-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  luazip={
+    ['1.2.3-2']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    }
+  },
+  luagraph={
+    ['1.0.2-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.0.2-2']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  lbci={
+    ['20090306-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  lrandom={
+    ['20070628-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['20090623-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  luasvn={
+    ['0.1-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['0.2.6-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['0.4.0-1']={
+      {
+        arch='rockspec'
+      }
+    },
+    ['0.3.0-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['0.2.6-2']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  nixio={
+    ['0.3-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  webrocks={
+    ['1.0-1']={
+      {
+        arch='macosx-x86'
+      }, {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  lmathx={
+    ['20080423-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['20080903-1']={
+      {
+        arch='rockspec'
+      }
+    },
+    ['20090219-1']={
+      {
+        arch='rockspec'
+      }
+    },
+    ['20090808-1']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
+  ['luasql-mysql']={
+    ['2.2.0-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  lmapm={
+    ['20070628-2']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['20090403-2']={
+      {
+        arch='rockspec'
+      }
+    },
+    ['20090403-3']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
+  loop={
+    ['2.3beta-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['2.2alpha-1']={
+      {
+        arch='all'
+      }, {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  markdown={
+    ['0.27-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['0.30-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['0.13-1']={
+      {
+        arch='all'
+      }, {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['0.32-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['0.31-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['0.26-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  penlight={
+    ['0.8-1']={
+      {
+        arch='all'
+      }, {
+        arch='rockspec'
+      }
+    }
+  },
+  ['wsapi-xavante']={
+    ['1.3.2-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.2-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['1.3.3-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.3-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.3.1-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.3.4-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    }
+  },
+  luafilesystem={
+    ['1.4.0-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.4.2-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['1.5.0-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['1.2.1-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.4.0-2']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['1.3.0-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['1.4.1-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    }
+  },
+  luaidl={
+    ['0.8.9beta-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
       }
     }
   },
   pluto={
     ['2.4-1']={
       {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }
     },
     ['2.2-1']={
@@ -1622,6 +1502,20 @@ repository = {
     }
   },
   cgilua={
+    ['5.1.2rc1-1']={
+      {
+        arch='src'
+      }
+    },
+    ['5.1.4-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
     ['5.1.3-1']={
       {
         arch='all'
@@ -1631,23 +1525,9 @@ repository = {
         arch='src'
       }
     },
-    ['5.1.2rc1-1']={
-      {
-        arch='src'
-      }
-    },
     ['5.1.2-2']={
       {
-        arch='src'
-      }, {
         arch='all'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['5.1.4-1']={
-      {
-        arch='win32-x86'
       }, {
         arch='rockspec'
       }, {
@@ -1658,9 +1538,9 @@ repository = {
   luaposix={
     ['5.1.2-1']={
       {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }
     }
   },
@@ -1669,20 +1549,20 @@ repository = {
       {
         arch='all'
       }, {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }
     }
   },
   tethys={
     ['2.0.0-1']={
       {
-        arch='src'
-      }, {
         arch='all'
       }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }
     },
     ['2.0.1-1']={
@@ -1710,23 +1590,28 @@ repository = {
     },
     ['1.0.0-2']={
       {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }
     }
   },
-  lbci={
-    ['20090306-1']={
+  luabins={
+    ['0.1.1-2']={
       {
-        arch='src'
-      }, {
         arch='rockspec'
+      }
+    },
+    ['0.2-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
       }
     }
   },
-  oil={
-    ['0.4beta-1']={
+  luayaml={
+    ['0.5.6-1']={
       {
         arch='rockspec'
       }, {
@@ -1737,11 +1622,11 @@ repository = {
   copas={
     ['1.1.6-1']={
       {
-        arch='src'
+        arch='all'
       }, {
         arch='rockspec'
       }, {
-        arch='all'
+        arch='src'
       }
     },
     ['1.1.4-1']={
@@ -1755,36 +1640,36 @@ repository = {
       {
         arch='all'
       }, {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }
     },
     ['1.1.2-1']={
       {
-        arch='src'
-      }, {
         arch='all'
       }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }
     },
     ['1.1.1-1']={
       {
         arch='all'
       }, {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }
     },
     ['1.1.3-1']={
       {
-        arch='src'
+        arch='all'
       }, {
         arch='rockspec'
       }, {
-        arch='all'
+        arch='src'
       }
     }
   },
@@ -1809,6 +1694,109 @@ repository = {
       }
     }
   },
+  lbc={
+    ['20090529-1']={
+      {
+        arch='rockspec'
+      }
+    },
+    ['20070627-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    }
+  },
+  ['wsapi-fcgi']={
+    ['1.0-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['1.2-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.3.3-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.1-2']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['1.3.2-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.3-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.1-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['1.1-3']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.0-2']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['1.3.1-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.3.4-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    }
+  },
   sociallua={
     ['1.0-1']={
       {
@@ -1818,34 +1806,14 @@ repository = {
       }
     }
   },
-  ['lua-xmlreader']={
-    ['0.1-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='src'
-      }
-    }
-  },
-  luacom={
-    ['1.4-1']={
-      {
-        arch='rockspec'
-      }, {
-        arch='win32-x86'
-      }, {
-        arch='src'
-      }
-    }
-  },
   ['lua-coat']={
     ['0.8.0-1']={
       {
-        arch='src'
-      }, {
         arch='all'
       }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }
     },
     ['0.8.1-1']={
@@ -1872,11 +1840,9 @@ repository = {
         arch='src'
       }
     },
-    ['0.5.0-2']={
+    ['0.5.1-1']={
       {
         arch='rockspec'
-      }, {
-        arch='src'
       }
     },
     ['0.1.0-1']={
@@ -1893,14 +1859,7 @@ repository = {
         arch='src'
       }
     },
-    ['0.5.1-1']={
-      {
-        arch='rockspec'
-      }
-    }
-  },
-  slncrypto={
-    ['1.1-1']={
+    ['0.5.0-2']={
       {
         arch='rockspec'
       }, {
@@ -1908,12 +1867,26 @@ repository = {
       }
     }
   },
-  luadaemon={
-    ['1.0.0-1']={
+  luse={
+    ['1.0.2-1']={
       {
         arch='rockspec'
       }, {
         arch='src'
+      }
+    }
+  },
+  mixlua={
+    ['0.2.7-2']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['0.2.7-1']={
+      {
+        arch='rockspec'
       }
     }
   },
@@ -1938,21 +1911,64 @@ repository = {
       }
     }
   },
-  stringy={
-    ['0.2-1']={
+  lpeg={
+    ['0.7-2']={
       {
         arch='rockspec'
       }, {
         arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['0.8.1-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['0.7-3']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['0.7-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['0.6-2']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['0.9-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
       }
     }
   },
   nancy={
     ['549-1']={
       {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }
     }
   },
@@ -1967,64 +1983,66 @@ repository = {
       }
     }
   },
-  lbc={
-    ['20070627-1']={
+  kepler={
+    ['1.1.1-1']={
       {
         arch='rockspec'
       }, {
         arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['1.1-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
       }
     }
   },
   luma={
     ['0.1-2']={
       {
-        arch='src'
+        arch='all'
       }, {
         arch='rockspec'
       }, {
-        arch='all'
+        arch='src'
       }
     }
   },
-  xssfilter={
-    ['8.04.20-1']={
+  slnunicode={
+    ['1.1-1']={
       {
-        arch='all'
+        arch='rockspec'
       }, {
         arch='src'
-      }, {
-        arch='rockspec'
       }
     }
   },
   luasocket={
     ['2.0.2-3']={
       {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }, {
         arch='win32-x86'
       }
     },
     ['2.0.1-3']={
       {
-        arch='win32-x86'
+        arch='rockspec'
       }, {
         arch='src'
       }, {
-        arch='rockspec'
+        arch='win32-x86'
       }
     },
     ['2.0.1-2']={
-      {
-        arch='src'
-      }, {
-        arch='rockspec'
-      }
-    },
-    ['2.0.2-2']={
       {
         arch='rockspec'
       }, {
@@ -2033,11 +2051,18 @@ repository = {
     },
     ['2.0.2-1']={
       {
-        arch='win32-x86'
+        arch='rockspec'
       }, {
         arch='src'
       }, {
+        arch='win32-x86'
+      }
+    },
+    ['2.0.2-2']={
+      {
         arch='rockspec'
+      }, {
+        arch='src'
       }
     }
   },
@@ -2050,33 +2075,96 @@ repository = {
       }
     }
   },
-  ['lua-imlib2']={
-    ['0.1-1']={
+  orbit={
+    ['2.0-1']={
+      {
+        arch='all'
+      }, {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['2.0.1-1']={
+      {
+        arch='all'
+      }, {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['2.0.2-1']={
       {
         arch='rockspec'
       }, {
         arch='src'
       }
     },
-    ['0.1-2']={
+    ['2.1.0-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['2.2.0-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    }
+  },
+  rings={
+    ['1.2.3-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
+      }
+    },
+    ['1.2.0-1']={
       {
         arch='rockspec'
       }, {
         arch='src'
       }
-    }
-  },
-  objectlua={
-    ['0.4.10-1']={
+    },
+    ['1.2.2-1']={
       {
+        arch='rockspec'
+      }, {
         arch='src'
       }, {
+        arch='win32-x86'
+      }
+    },
+    ['1.1.0-2']={
+      {
         arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['1.2.1-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }, {
+        arch='win32-x86'
       }
     }
   },
-  colors={
-    ['8.05.26-1']={
+  luasyslog={
+    ['1.0.0-1']={
       {
         arch='rockspec'
       }, {
@@ -2090,6 +2178,13 @@ repository = {
         arch='rockspec'
       }
     },
+    ['20090501-2']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
     ['20061011-1']={
       {
         arch='rockspec'
@@ -2101,18 +2196,18 @@ repository = {
   cosmo={
     ['10.03.31-1']={
       {
-        arch='rockspec'
-      }, {
         arch='all'
+      }, {
+        arch='rockspec'
       }
     },
     ['8.04.04-1']={
       {
         arch='all'
       }, {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }
     },
     ['10.04.06-1']={
@@ -2126,54 +2221,68 @@ repository = {
       {
         arch='all'
       }, {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }
     },
     ['8.02.18-1']={
       {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }, {
         arch='win32-x86'
       }
     },
     ['9.09.22-1']={
       {
-        arch='rockspec'
-      }, {
         arch='all'
+      }, {
+        arch='rockspec'
       }
     }
   },
   ['lascii85']={
     ['20070627-1']={
       {
+        arch='rockspec'
+      }, {
         arch='src'
       }, {
         arch='win32-x86'
-      }, {
-        arch='rockspec'
       }
     }
   },
   ldecnumber={
     ['2.1-1']={
       {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
       }
     }
   },
-  lposix={
-    ['20031107-1']={
+  ['lua-iconv']={
+    ['r3-1']={
       {
-        arch='src'
-      }, {
         arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['r5-1']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
+      }
+    },
+    ['r5-2']={
+      {
+        arch='rockspec'
+      }, {
+        arch='src'
       }
     }
   }

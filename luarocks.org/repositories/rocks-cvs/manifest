@@ -23,25 +23,18 @@ repository = {
       }
     }
   },
-  lualdap={
-    ['cvs-2']={
-      {
-        arch='rockspec'
-      }
-    }
-  },
   wsapi={
     ['cvs-2']={
       {
         arch='rockspec'
       }
     },
-    ['cvs-1']={
+    ['cvs-3']={
       {
         arch='rockspec'
       }
     },
-    ['cvs-3']={
+    ['cvs-1']={
       {
         arch='rockspec'
       }
@@ -52,7 +45,7 @@ repository = {
       }
     }
   },
-  mk={
+  luahaml={
     ['scm-1']={
       {
         arch='rockspec'
@@ -68,6 +61,20 @@ repository = {
   },
   luabins={
     ['scm-1']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
+  schema={
+    ['scm-1']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
+  copas={
+    ['cvs-2']={
       {
         arch='rockspec'
       }
@@ -90,13 +97,6 @@ repository = {
       }
     }
   },
-  copas={
-    ['cvs-2']={
-      {
-        arch='rockspec'
-      }
-    }
-  },
   cosmo={
     ['current-1']={
       {
@@ -104,7 +104,7 @@ repository = {
       }
     }
   },
-  ['kepler-xavante']={
+  coxpcall={
     ['cvs-2']={
       {
         arch='rockspec'
@@ -115,30 +115,18 @@ repository = {
         arch='rockspec'
       }
     },
-    ['1.1rc1-1']={
+    ['1.12.0rc1-1']={
       {
         arch='rockspec'
       }
     }
   },
-  ['wsapi-fcgi']={
-    ['cvs-2']={
+  ['luasql-sqlite3']={
+    ['2.2.0rc1-1']={
       {
         arch='rockspec'
       }
     },
-    ['cvs-1']={
-      {
-        arch='rockspec'
-      }
-    },
-    ['1.0rc1-1']={
-      {
-        arch='rockspec'
-      }
-    }
-  },
-  luacom={
     ['cvs-1']={
       {
         arch='rockspec'
@@ -152,35 +140,20 @@ repository = {
       }
     }
   },
-  ['kepler-fastcgi']={
-    ['cvs-2']={
+  ['luasql-mysql']={
+    ['2.2.0rc1-1']={
       {
         arch='rockspec'
       }
     },
     ['cvs-1']={
-      {
-        arch='rockspec'
-      }
-    },
-    ['1.1rc1-1']={
       {
         arch='rockspec'
       }
     }
   },
-  kepler={
+  lualdap={
     ['cvs-2']={
-      {
-        arch='rockspec'
-      }
-    },
-    ['cvs-1']={
-      {
-        arch='rockspec'
-      }
-    },
-    ['1.1rc1-1']={
       {
         arch='rockspec'
       }
@@ -193,7 +166,7 @@ repository = {
       }
     }
   },
-  luaprofiler={
+  luacom={
     ['cvs-1']={
       {
         arch='rockspec'
@@ -222,32 +195,32 @@ repository = {
       }
     }
   },
-  luahaml={
+  ['lua-ev']={
     ['scm-1']={
       {
         arch='rockspec'
       }
     }
   },
-  ['luasql-mysql']={
-    ['2.2.0rc1-1']={
+  ['wsapi-fcgi']={
+    ['cvs-2']={
       {
         arch='rockspec'
       }
     },
     ['cvs-1']={
+      {
+        arch='rockspec'
+      }
+    },
+    ['1.0rc1-1']={
       {
         arch='rockspec'
       }
     }
   },
-  ['luasql-sqlite3']={
-    ['2.2.0rc1-1']={
-      {
-        arch='rockspec'
-      }
-    },
-    ['cvs-1']={
+  ['lua-amf']={
+    ['scm-1']={
       {
         arch='rockspec'
       }
@@ -346,25 +319,15 @@ repository = {
       }
     }
   },
-  schema={
+  mk={
     ['scm-1']={
       {
         arch='rockspec'
       }
     }
   },
-  coxpcall={
-    ['cvs-2']={
-      {
-        arch='rockspec'
-      }
-    },
+  luaprofiler={
     ['cvs-1']={
-      {
-        arch='rockspec'
-      }
-    },
-    ['1.12.0rc1-1']={
       {
         arch='rockspec'
       }
