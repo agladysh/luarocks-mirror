@@ -1,7 +1,7 @@
 package = "lua-hiredis"
 version = "scm-1"
 source = {
-   url = "git://github.com/agladysh/lua-hiredis.git",
+   url = "git://github.com/agladysh/lua-hiredis",
    branch = "master"
 }
 description = {

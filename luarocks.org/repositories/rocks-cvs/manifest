@@ -66,6 +66,20 @@ repository = {
       }
     }
   },
+  lanes={
+    ['scm-1']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
+  lqt={
+    ['scm-1']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
   ['lua-amf']={
     ['scm-1']={
       {
@@ -74,6 +88,13 @@ repository = {
     }
   },
   ['lua-aplicado']={
+    ['scm-1']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
+  ['lua-cmsgpack']={
     ['scm-1']={
       {
         arch='rockspec'
@@ -113,6 +134,13 @@ repository = {
       }
     }
   },
+  ['lua-llthreads']={
+    ['scm-1']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
   ['lua-nucleo']={
     ['scm-1']={
       {
@@ -121,6 +149,27 @@ repository = {
     }
   },
   ['lua-phpserialize']={
+    ['scm-1']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
+  ['lua-yajl']={
+    ['scm-1']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
+  ['lua-zmq']={
+    ['scm-1']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
+  ['lua-zmq-threads']={
     ['scm-1']={
       {
         arch='rockspec'
@@ -180,6 +229,11 @@ repository = {
       {
         arch='rockspec'
       }
+    },
+    ['scm-4']={
+      {
+        arch='rockspec'
+      }
     }
   },
   lualdap={
@@ -191,6 +245,11 @@ repository = {
   },
   lualogging={
     ['cvs-2']={
+      {
+        arch='rockspec'
+      }
+    },
+    ['scm-1']={
       {
         arch='rockspec'
       }
@@ -248,6 +307,27 @@ repository = {
       }
     },
     ['cvs-1']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
+  luatexts={
+    ['scm-1']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
+  luatrace={
+    ['scm-1']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
+  luma={
+    ['scm-1']={
       {
         arch='rockspec'
       }
