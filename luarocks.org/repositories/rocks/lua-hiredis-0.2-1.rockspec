@@ -1,8 +1,8 @@
 package = "lua-hiredis"
-version = "scm-1"
+version = "0.2-1"
 source = {
    url = "git://github.com/agladysh/lua-hiredis.git",
-   branch = "master"
+   branch = "v0.2"
 }
 description = {
    summary = "Bindings for hiredis Redis-client library",
